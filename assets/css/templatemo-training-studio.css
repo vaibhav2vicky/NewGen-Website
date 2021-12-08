@@ -216,11 +216,11 @@ header
   color: #fff!important;
 }
 
-.background-header .main-nav .nav li:last-child a {
+.background-header .main-nav .nav li:last-chil a {
   color: #fff !important;
 }
 
-.background-header .main-nav .nav li:last-child a:hover {
+.background-header .main-nav .nav li:last-chil a:hover {
   color: #fff!important;
 }
 
@@ -311,11 +311,11 @@ header
   color: #fff;
 }
 
-.header-area .main-nav .nav li:last-child a {
+.header-area .main-nav .nav li:last-chil a {
   display: inline-block;
   font-size: 13px;
   padding: 11px 17px;
-  background-color: #ed563b;
+  /*background-color: #ed563b;*/
   color: #fff;
   text-align: center;
   font-weight: 400;
@@ -326,8 +326,8 @@ header
   line-height: 20px;
 }
 
-.header-area .main-nav .nav li:last-child a:hover {
-  background-color: #f9735b;
+.header-area .main-nav .nav li:last-chil a:hover {
+  /*background-color: #f9735b;*/
   opacity: 1;
 }
 
@@ -466,6 +466,12 @@ header
   color: #ed563b;
 }
 
+.newgen{
+  color: #ed563b;
+  font-size: 20px;
+}
+
+
 @media (max-width: 1200px) {
   .header-area .main-nav .nav li {
     padding-left: 12px;
@@ -517,18 +523,18 @@ header
   .header-area .main-nav .nav li:first-child {
     border-top: 1px solid #eee;
   }
-  .header-area .main-nav .nav li:last-child {
+  .header-area .main-nav .nav li:last-chil {
     width: 100%;
-    background-color: #ed563b;
-    color: #fff;
+    /*background-color: #ed563b;*/
+    /*color: #fff;*/
   }
-  .header-area .main-nav .nav li:last-child a {
-    background-color: #ed563b!important;
+  .header-area .main-nav .nav li:last-chil a {
+    /*background-color: #ed563b!important;*/
   }
-  .header-area .main-nav .nav li:last-child a:hover,
-  .header-area .main-nav .nav li:last-child:hover a {
+  .header-area .main-nav .nav li:last-chil a:hover,
+  .header-area .main-nav .nav li:last-chil:hover a {
     background-color: #ed563b!important;
-    color: #fff!important;
+    /*color: #fff!important;*/
   }
   .header-area.header-sticky .nav {
     margin-top: 80px !important;
@@ -548,7 +554,7 @@ header
     background: #f7f7f7 !important;
     color: #232d39 !important;
   }
-  .header-area .main-nav .nav li:last-child a {
+  .header-area .main-nav .nav li:last-chil a {
     color: #fff!important;
   }
   .header-area .main-nav .nav li a:hover {
@@ -720,6 +726,7 @@ subscribe
   text-align: center;
 }
 
+
 .cta-content h2 {
   font-size: 36px;
   text-transform: uppercase;
@@ -760,7 +767,7 @@ Our Classes
   display: inline-block;
   width: 100%;
 }
-#tabs ul li:last-child {
+#tabs ul li:last-chil {
   margin-bottom: 0px;
 }
 #tabs ul li a {
@@ -914,10 +921,10 @@ schedule
   margin-left: 10px;
   color: #fff;
 }
-#schedule .filters ul li:last-child {
+#schedule .filters ul li:last-chil {
   margin-right: 0px;
 }
-#schedule .filters ul li:last-child::after {
+#schedule .filters ul li:last-chil::after {
   display: none;
 }
 #schedule .filters ul li.active,
@@ -983,7 +990,7 @@ trainers
   margin-right: 12px;
 }
 
-#trainers .trainer-item ul.social-icons li:last-child {
+#trainers .trainer-item ul.social-icons li:last-chil {
   margin-right: 0px;
 }
 
@@ -1079,6 +1086,60 @@ contact
 }
 
 
+.aboutussec h2{
+  color: white;
+}
+
+.aboutus-caption {
+  margin-top: 150px;
+}
+
+.pdf-viewer {
+  align-content: center;
+  margin-top: 8px;
+  margin-bottom:20px; 
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 200%;
+
+}
+.pdf-viewer h2 {
+  align-content: center;
+  margin-top: 8px;
+  margin-bottom:20px; 
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 125%;
+  color: white;
+
+}
+.pdf-viewer em {
+  align-content: center;
+  margin-top: 8px;
+  margin-bottom:20px; 
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  font-size: 125%;
+  color: #ed563b;
+
+}
+.aboutus-cont {
+  margin-top: 30px;
+  color: white;
+  position: relative;
+
+}
+
+.aboutus-cont p {
+  margin-top: 30px;
+  padding: 10px;
+  color: white;
+  position: relative;
+  font-size: 125%; 
+}
 
 
 /* 
