@@ -686,6 +686,8 @@ features
 .feature-item .left-icon img {
   float: left;
   margin-right: 30px;
+  height: 200px;
+  width: 300px;
 }
 
 .feature-item .right-content {
