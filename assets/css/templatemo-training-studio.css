@@ -691,6 +691,12 @@ features
   height: 200px;
   width: 300px;
 }
+.feature-item .lef-icon img {
+  float: center;
+  margin-left: : 100px;
+  height: 1000px;
+  width: 800px;
+}
 
 .feature-item .right-content {
   display: inline;
@@ -1024,6 +1030,9 @@ contact
 
 #contact-us .container-fluid .col-lg-6 {
   padding: 0px;
+}
+#contact-us .container-fluid .col-lg-7 {
+  padding: 80px;
 }
 
 #contact-us .contact-form {
