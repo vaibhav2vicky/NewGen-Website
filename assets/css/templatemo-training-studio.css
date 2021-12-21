@@ -1316,6 +1316,7 @@ preloader
     display: block;
     width: 100%;
     justify-content: center;
+    margin-bottom: 20px;
   }
 /* 
 ---------------------------------------------
@@ -1338,7 +1339,7 @@ responsive
     font-size: 44px;
   }
   .pdf-viewer iframe{
-    height:calc(100vh - 4px);
+    height:calc(100vh - 80px);
     width:calc(100vw - 4px);
     display: block;
   }
