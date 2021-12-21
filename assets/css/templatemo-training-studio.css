@@ -1309,10 +1309,14 @@ preloader
   }
 
 .sanctionorder{
-    width: 100VH;
-    margin: 20px;
+    display: block;
+    width: 100%;
   }
-
+.sanctionorder img{
+    display: block;
+    width: 100%;
+    justify-content: center;
+  }
 /* 
 ---------------------------------------------
 responsive
