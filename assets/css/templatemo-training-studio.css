@@ -493,8 +493,8 @@ header
   }
   .header-area {
     background-color: #f7f7f7;
-    padding: 0px 15px;
-    height: 80px;
+    padding: 0px 7px;
+    height: 60px;
     box-shadow: none;
     text-align: center;
   }
@@ -677,7 +677,7 @@ features
 */
 
 #features {
-  margin-bottom: 80px;
+  margin-bottom: 60px;
 }
 
 .feature-item {
@@ -1348,7 +1348,7 @@ responsive
     max-width: 900px;
   }
   #features {
-    margin-bottom: 110px;
+    margin-bottom: 100px;
   }
   #features .feature-item {
     margin-bottom: 30px;
