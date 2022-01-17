@@ -1012,11 +1012,16 @@ trainers
   color: #232d39;
   transition: all .3s;
 }
-
+.social-icons li a {
+  color: #232d39;
+  transition: all .3s;
+}
 #trainers .trainer-item ul.social-icons li a:hover {
   color: #ed563b;
 }
-
+.social-icons li a:hover {
+  color: #ed563b;
+}
 
 /* 
 ---------------------------------------------
@@ -1158,6 +1163,24 @@ contact
   font-size: 125%; 
 }
 
+.youtube iframe {
+  width:735px; 
+  height:415px;
+  align-content: center;
+  margin:auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icons a{
+  color: black;
+}
+
+a {
+  color: #ed563b;
+
+}
 
 /* 
 ---------------------------------------------
@@ -1216,6 +1239,10 @@ preloader
     visibility: hidden;
     pointer-events: none;
 }
+
+
+
+
 
 @-webkit-keyframes dot {
     50% {
@@ -1343,6 +1370,17 @@ responsive
     width:calc(100vw - 4px);
     display: block;
   }
+
+  .youtube iframe {
+  width:400px; 
+  height:300px;
+  align-content: center;
+  margin:auto;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  }
+
 
   .sanctionorder{
     max-width: 900px;
